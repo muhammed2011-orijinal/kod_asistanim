@@ -14,3 +14,10 @@ adım8:Tahliye saati ve kritik su miktarını ekrana yazdır
 adım9:Bitir
 ##Kaynakça
 ##meb_programlama_temelleri_ders_kitabı
+##7.Uygulama: Kod-Asistan Basit Kayıt Akışı
+''' mermaid
+flowchart TD
+A([Başla])-->B[/Ad Oku,Soyad Oku/]
+B-->C[TamAd=Ad+Soyad]
+C-->D[/"Merhaba"+ TamAd/]
+D-->E([Bitir])
